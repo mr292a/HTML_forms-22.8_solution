@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>HTML forms</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>The future is now!</h1>
+  <script src="script.js"></script>
+  
+    <form>
+        <fieldset>
+            <legend>Come join now!</legend>
+            <div>
+                <label for="name">Enter Name:</label>
+                <input id="name" type="text" name="name" placeholder="Enter your full name"/>
+                <br><br>
+                <label for="email">Enter email</label>
+                <input type="email" id="email" name="email"/>
+                <br><br>
+                <label for="form-message">The message:</label>
+                <textarea id="form-message" name="message" autofocus="on" 
+                required maxlength="200" placeholder="What are you doing to secure your future?"
+                ></textarea>
+            </div>
+        </fieldset>
+        
+    </form>
+
+</body>
+
+</html>
